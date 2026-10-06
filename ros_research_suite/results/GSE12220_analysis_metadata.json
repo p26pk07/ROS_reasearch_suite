@@ -1,0 +1,161 @@
+{
+  "analyses_run": [
+    {
+      "analysis": "robustness",
+      "date_utc": "2026-10-06T12:17:36+00:00",
+      "outputs": [
+        "results/tables/GSE12220_control_probes_log2fc.csv",
+        "results/tables/GSE12220_pattern_sensitivity.csv",
+        "results/tables/GSE12220_robustness.csv",
+        "results/tables/GSE12220_specificity_sensitivity.csv"
+      ]
+    },
+    {
+      "analysis": "validation",
+      "date_utc": "2026-10-06T12:17:38+00:00",
+      "outputs": [
+        "results/tables/GSE12220_control_probes_log2fc.csv",
+        "results/tables/GSE12220_positive_controls.csv",
+        "results/tables/GSE12220_ros_list_go_support.csv"
+      ]
+    }
+  ],
+  "dataset": {
+    "geo_accession": "GSE12220",
+    "title": "Changes in Saccharomyces cerevisiae mRNA abundance following oxidative stress and DNA damage stress",
+    "pubmed_id_from_geo": "18854817",
+    "geo_submission_date": "Jul 23 2008",
+    "organism": [
+      "Saccharomyces cerevisiae"
+    ],
+    "strain": [
+      "Y262"
+    ],
+    "platform": [
+      "GPL2529"
+    ],
+    "n_samples": 12,
+    "treatments": {
+      "H2O2": {
+        "concentration": [
+          "0.3 mM"
+        ],
+        "time_points_min": [
+          0.0,
+          30.0,
+          60.0,
+          100.0,
+          140.0,
+          180.0
+        ],
+        "samples": {
+          "GSM307217": 0.0,
+          "GSM307218": 30.0,
+          "GSM307219": 60.0,
+          "GSM307220": 100.0,
+          "GSM307221": 140.0,
+          "GSM307222": 180.0
+        },
+        "replicates_per_timepoint": 1
+      },
+      "MMS": {
+        "concentration": [
+          "0.1 %"
+        ],
+        "time_points_min": [
+          0.0,
+          30.0,
+          60.0,
+          100.0,
+          140.0,
+          180.0
+        ],
+        "samples": {
+          "GSM307223": 0.0,
+          "GSM307224": 30.0,
+          "GSM307225": 60.0,
+          "GSM307226": 100.0,
+          "GSM307227": 140.0,
+          "GSM307228": 180.0
+        },
+        "replicates_per_timepoint": 1
+      }
+    },
+    "data_level": "processed (von den Autoren bereitgestellte, RMA-berechnete log2-Werte; CEL-Rohdateien werden NICHT verwendet; keine eigene Normalisierung)",
+    "data_processing_reported_by_authors": [
+      "RMA algorithms using bioconductor software implemented in R."
+    ],
+    "series_matrix_file": "GSE12220_series_matrix.txt.gz",
+    "annotation": {
+      "file": "GPL2529.soft",
+      "retrieved": "2026-10-04",
+      "annotation_date_in_file": [
+        "Mar 13, 2009"
+      ]
+    },
+    "data_source": {
+      "series": "NCBI GEO (ftp.ncbi.nlm.nih.gov/geo/series)",
+      "platform_annotation": "NCBI GEO query (www.ncbi.nlm.nih.gov/geo/query/acc.cgi)"
+    }
+  },
+  "parameters": {
+    "MIN_ABS_LOG2FC": 1.0,
+    "MIN_CONSECUTIVE_TIMEPOINTS": 2,
+    "EARLY_ONSET_MAX_MIN": 60,
+    "TRANSIENT_RETURN_FRACTION": 0.5,
+    "SPECIFICITY_LOW_FRACTION": 0.5,
+    "SENSITIVITY_THRESHOLDS": [
+      0.58,
+      1.0,
+      1.58,
+      2.0
+    ],
+    "SENSITIVITY_CONSECUTIVE": [
+      1,
+      2,
+      3
+    ],
+    "ROBUSTNESS_ROBUST_MIN": 0.75,
+    "ROBUSTNESS_FRAGILE_MAX": 0.4,
+    "PATTERN_EARLY_GRID": [
+      30,
+      60,
+      100
+    ],
+    "PATTERN_RETURN_GRID": [
+      0.3,
+      0.5,
+      0.7
+    ],
+    "ORGANISM_FILTER": "Saccharomyces cerevisiae",
+    "CONTROL_PROBE_PREFIX": "AFFX-",
+    "MIN_ANNOTATION_MATCH_RATE": 0.9,
+    "TOP_N_GENES": 20,
+    "TOP_N_DISCOVERY": 50
+  },
+  "statistical_evidence": "Gene: nicht testbar (keine Replikate). Keine p-Werte und keine FDR für einzelne Gene. Sprache: 'responsiv' bezeichnet Effektstärke + Konsistenz, nicht Signifikanz.",
+  "software_versions": {
+    "software": "0.1.0",
+    "python": "3.14.7",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "requests": "2.34.2"
+  },
+  "analysis_methods": {
+    "log2fc": "log2FC = E_behandelt - E_Baseline (E = log2-RMA-Wert, Baseline = t=0 derselben Behandlung)",
+    "differential": "responsive = |log2FC| >= Schwelle in >= k aufeinanderfolgenden Zeitpunkten; kein Signifikanztest (keine Replikate)",
+    "timecourse": "Muster aus Beginn (early/late), Dauer (sustained/transient/partial_decline/biphasic)",
+    "ros": "kuratierte Genliste (Vorwissen) gegen unvoreingenommene Top-Antworter; deskriptiver Vergleich",
+    "robustness": "Anteil der Parameterkombinationen, in denen Gen/Muster/Spezifität gleich bleibt",
+    "validation": "Beispielrechnung, GO-Abgleich der Genliste, Positivkontrollen"
+  },
+  "probe_counts": {
+    "probes_in_expression_file": 5900,
+    "probes_after_organism_filter": 5837,
+    "control_probes_removed": 74,
+    "probes_analyzed": 5763
+  }
+}

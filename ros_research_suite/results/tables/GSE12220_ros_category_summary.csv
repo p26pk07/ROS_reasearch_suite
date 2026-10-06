@@ -1,0 +1,7 @@
+category,n_genes,H2O2_up,H2O2_down,H2O2_median_abs_peak,MMS_up,MMS_down,MMS_median_abs_peak
+Antioxidant defense,26,13,0,1.13,16,0,1.22
+"ROS production / metabolism (NADPH supply, redox enzymes)",12,4,0,0.76,5,3,1.92
+DNA damage response,26,4,1,0.58,7,2,0.79
+Protein repair / chaperones,15,8,0,1.3,12,0,1.89
+General stress response,17,11,0,1.68,13,1,2.09
+Mitochondrial response,14,9,0,1.35,7,1,1.33

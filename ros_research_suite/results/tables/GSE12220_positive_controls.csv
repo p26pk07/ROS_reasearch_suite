@@ -1,0 +1,6 @@
+symbol,expected,observed,peak_log2fc,status,source
+CTT1,up,up,5.05,agrees,Quelle fehlt
+SRX1,up,up,7.01,agrees,Quelle fehlt
+TRX2,up,none,0.69,does_not_agree,Quelle fehlt
+TSA1,up,none,0.43,does_not_agree,Quelle fehlt
+GPX2,up,up,2.71,agrees,Quelle fehlt

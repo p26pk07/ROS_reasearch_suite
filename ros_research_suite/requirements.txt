@@ -1,0 +1,7 @@
+# Phase 1 braucht nur diese Pakete. Weitere (scipy, statsmodels, matplotlib, ...)
+# werden erst in der Phase hinzugefügt, in der sie wirklich gebraucht werden.
+pandas>=2.0
+requests>=2.31
+pytest>=7.4
+scipy>=1.11
+matplotlib>=3.8

@@ -1,0 +1,111 @@
+symbol,orf,category,n_go_terms,n_matching_terms,example_terms,go_support
+SOD1,YJR104C,antioxidant_defense,17,3,antioxidant activity; superoxide dismutase activity; superoxide metabolic process,supported
+SOD2,YHR008C,antioxidant_defense,12,3,age-dependent response to oxidative stress during chronological cell aging; superoxide dismutase activity; superoxide metabolic process,supported
+CCS1,YMR038C,antioxidant_defense,12,2,superoxide dismutase copper chaperone activity; superoxide metabolic process,supported
+CTT1,YGR088W,antioxidant_defense,13,3,catalase activity; hydrogen peroxide catabolic process; response to oxidative stress,supported
+CTA1,YDR256C,antioxidant_defense,16,3,catalase activity; hydrogen peroxide catabolic process; response to oxidative stress,supported
+TSA1,YML028W,antioxidant_defense,16,6,antioxidant activity; cell redox homeostasis; peroxiredoxin activity,supported
+TSA2,YDR453C,antioxidant_defense,10,5,antioxidant activity; cell redox homeostasis; peroxiredoxin activity,supported
+AHP1,YLR109W,antioxidant_defense,11,5,antioxidant activity; cell redox homeostasis; peroxiredoxin activity,supported
+DOT5,YIL010W,antioxidant_defense,13,5,antioxidant activity; cell redox homeostasis; peroxiredoxin activity,supported
+PRX1,YBL064C,antioxidant_defense,9,5,antioxidant activity; cell redox homeostasis; peroxiredoxin activity,supported
+GPX1,YKL026C,antioxidant_defense,6,3,glutathione peroxidase activity; phospholipid-hydroperoxide glutathione peroxidase activity; response to oxidative stress,supported
+GPX2,YBR244W,antioxidant_defense,8,3,glutathione peroxidase activity; phospholipid-hydroperoxide glutathione peroxidase activity; response to oxidative stress,supported
+GPX3,YIR037W,antioxidant_defense,10,5,glutathione peroxidase activity; peroxiredoxin activity; phospholipid-hydroperoxide glutathione peroxidase activity,supported
+GSH1,YJL101C,antioxidant_defense,10,2,glutathione biosynthetic process; response to hydrogen peroxide,supported
+GSH2,YOL049W,antioxidant_defense,10,2,glutathione biosynthetic process; glutathione synthase activity,supported
+GLR1,YPL091W,antioxidant_defense,12,4,cell redox homeostasis; glutathione metabolic process; glutathione-disulfide reductase activity,supported
+GRX1,YCL035C,antioxidant_defense,10,4,cell redox homeostasis; glutathione peroxidase activity; glutathione transferase activity,supported
+GRX2,YDR513W,antioxidant_defense,12,4,cell redox homeostasis; glutathione peroxidase activity; glutathione transferase activity,supported
+GTT1,YIR038C,antioxidant_defense,10,3,glutathione metabolic process; glutathione peroxidase activity; glutathione transferase activity,supported
+GTT2,YLL060C,antioxidant_defense,5,2,glutathione metabolic process; glutathione transferase activity,supported
+TRX1,YLR043C,antioxidant_defense,22,1,cell redox homeostasis,supported
+TRX2,YGR209C,antioxidant_defense,22,1,cell redox homeostasis,supported
+TRX3,YCR083W,antioxidant_defense,6,2,cell redox homeostasis; response to oxidative stress,supported
+TRR1,YDR353W,antioxidant_defense,12,4,cell redox homeostasis; removal of superoxide radicals; response to oxidative stress,supported
+TRR2,YHR106W,antioxidant_defense,10,4,cell redox homeostasis; removal of superoxide radicals; response to oxidative stress,supported
+SRX1,YKL086W,antioxidant_defense,10,2,antioxidant activity; response to oxidative stress,supported
+ZWF1,YNL241C,ros_metabolism,14,4,NADPH regeneration; glucose-6-phosphate dehydrogenase activity; oxidation reduction,supported
+GND1,YHR183W,ros_metabolism,14,3,"oxidation reduction; pentose-phosphate shunt; pentose-phosphate shunt, oxidative branch",supported
+GND2,YGR256W,ros_metabolism,11,3,"oxidation reduction; pentose-phosphate shunt; pentose-phosphate shunt, oxidative branch",supported
+SOL3,YHR163W,ros_metabolism,6,2,"pentose-phosphate shunt; pentose-phosphate shunt, oxidative branch",supported
+SOL4,YGR248W,ros_metabolism,7,2,"pentose-phosphate shunt; pentose-phosphate shunt, oxidative branch",supported
+TKL1,YPR074C,ros_metabolism,8,1,pentose-phosphate shunt,supported
+TAL1,YLR354C,ros_metabolism,8,1,pentose-phosphate shunt,supported
+ALD6,YPL061W,ros_metabolism,13,1,oxidation reduction,supported
+IDP2,YLR174W,ros_metabolism,14,1,oxidation reduction,supported
+POS5,YPL188W,ros_metabolism,11,0,,no_matching_term
+OYE2,YHR179W,ros_metabolism,10,2,NADPH dehydrogenase activity; oxidation reduction,supported
+OYE3,YPL171C,ros_metabolism,8,2,NADPH dehydrogenase activity; oxidation reduction,supported
+MEC1,YBR136W,dna_damage_response,22,8,DNA damage checkpoint; DNA damage induced protein phosphorylation; DNA recombination,supported
+RAD53,YPL153C,dna_damage_response,19,4,DNA repair; DNA replication initiation; DNA replication origin binding,supported
+RAD9,YDR217C,dna_damage_response,16,7,DNA damage checkpoint; DNA repair; G1 DNA damage checkpoint,supported
+DUN1,YDL101C,dna_damage_response,13,3,DNA damage checkpoint; cell cycle checkpoint; response to DNA damage stimulus,supported
+RNR1,YER070W,dna_damage_response,11,2,DNA replication; deoxyribonucleotide biosynthetic process,supported
+RNR2,YJL026W,dna_damage_response,14,2,DNA replication; deoxyribonucleotide biosynthetic process,supported
+RNR3,YIL066C,dna_damage_response,12,2,DNA replication; deoxyribonucleotide biosynthetic process,supported
+RNR4,YGR180C,dna_damage_response,13,2,DNA replication; deoxyribonucleotide biosynthetic process,supported
+RAD51,YER095W,dna_damage_response,24,5,DNA recombination; DNA repair; reciprocal meiotic recombination,supported
+RAD52,YML032C,dna_damage_response,16,4,DNA recombination; DNA repair; response to DNA damage stimulus,supported
+RAD6,YGL058W,dna_damage_response,19,2,DNA repair; response to DNA damage stimulus,supported
+RAD18,YCR066W,dna_damage_response,17,2,DNA repair; response to DNA damage stimulus,supported
+OGG1,YML060W,dna_damage_response,16,5,"DNA repair; base-excision repair; base-excision repair, AP site formation",supported
+APN1,YKL114C,dna_damage_response,15,3,DNA repair; base-excision repair; response to DNA damage stimulus,supported
+NTG1,YAL015C,dna_damage_response,16,4,"DNA repair; base-excision repair; base-excision repair, AP site formation",supported
+NTG2,YOL043C,dna_damage_response,16,4,"DNA repair; base-excision repair; base-excision repair, AP site formation",supported
+MAG1,YER142C,dna_damage_response,10,3,DNA repair; base-excision repair; response to DNA damage stimulus,supported
+MGT1,YDL200C,dna_damage_response,9,2,DNA repair; response to DNA damage stimulus,supported
+RAD27,YKL113C,dna_damage_response,16,5,"DNA repair; DNA replication, removal of RNA primer; base-excision repair, base-free sugar-phosphate removal",supported
+UNG1,YML021C,dna_damage_response,9,3,DNA repair; base-excision repair; response to DNA damage stimulus,supported
+RAD2,YGR258C,dna_damage_response,16,5,DNA repair; nucleotide-excision repair; nucleotide-excision repair factor 3 complex,supported
+RAD14,YMR201C,dna_damage_response,11,5,DNA repair; nucleotide-excision repair; nucleotide-excision repair factor 1 complex,supported
+RAD23,YEL037C,dna_damage_response,18,5,DNA repair; nucleotide-excision repair; nucleotide-excision repair factor 2 complex,supported
+MSH2,YOL090W,dna_damage_response,26,6,DNA recombination; DNA repair; meiotic mismatch repair,supported
+MLH1,YMR167W,dna_damage_response,20,5,DNA repair; meiotic mismatch repair; mismatch repair,supported
+DDR2,YOL052C-A,dna_damage_response,3,0,,no_matching_term
+MXR1,YER042W,protein_repair,8,1,"oxidoreductase activity, acting on sulfur group of donors, disulfide as acceptor",supported
+MXR2,YCL033C,protein_repair,4,0,,no_matching_term
+HSP104,YLL026W,protein_repair,12,4,chaperone binding; chaperone cofactor-dependent protein folding; protein refolding,supported
+HSP26,YBR072W,protein_repair,6,2,protein folding; response to stress,supported
+HSP12,YFL014W,protein_repair,9,2,response to heat; response to stress,supported
+HSP42,YDR171W,protein_repair,5,1,response to stress,supported
+HSP30,YCR021C,protein_repair,7,1,response to stress,supported
+SSA1,YAL005C,protein_repair,19,3,protein folding; protein refolding; response to stress,supported
+SSA4,YER103W,protein_repair,8,2,protein folding; response to stress,supported
+HSP82,YPL240C,protein_repair,13,4,'de novo' protein folding; protein folding; protein refolding,supported
+HSC82,YMR186W,protein_repair,10,2,protein folding; response to stress,supported
+STI1,YOR027W,protein_repair,9,4,chaperone activator activity; chaperone inhibitor activity; protein folding,supported
+UBI4,YLL039C,protein_repair,12,1,protein ubiquitination,supported
+PDI1,YCL043C,protein_repair,8,3,protein disulfide isomerase activity; protein disulfide oxidoreductase activity; protein folding,supported
+ERO1,YML130C,protein_repair,14,3,"oxidoreductase activity, acting on sulfur group of donors, disulfide as acceptor; protein folding; protein thiol-disulfide exchange",supported
+YAP1,YML007W,stress_response,16,2,regulation of transcription from RNA polymerase II promoter in response to oxidative stress; response to heat,supported
+SKN7,YHR206W,stress_response,13,3,response to osmotic stress; response to oxidative stress; response to stress,supported
+MSN2,YMR037C,stress_response,22,6,age-dependent response to oxidative stress during chronological cell aging; heat acclimation; regulation of transcription from RNA polymerase II promoter in response to stress,supported
+MSN4,YKL062W,stress_response,20,6,age-dependent response to oxidative stress during chronological cell aging; heat acclimation; regulation of transcription from RNA polymerase II promoter in response to stress,supported
+HSF1,YGL073W,stress_response,12,2,response to heat; response to stress,supported
+STB5,YHR178W,stress_response,10,1,regulation of transcription from RNA polymerase II promoter in response to oxidative stress,supported
+HOG1,YLR113W,stress_response,19,1,hyperosmotic response,supported
+PBS2,YJL128C,stress_response,24,1,hyperosmotic response,supported
+TPS1,YBR126C,stress_response,14,4,"alpha,alpha-trehalose-phosphate synthase (UDP-forming) activity; alpha,alpha-trehalose-phosphate synthase complex (UDP-forming); response to stress",supported
+TPS2,YDR074W,stress_response,9,4,"alpha,alpha-trehalose-phosphate synthase complex (UDP-forming); response to stress; trehalose biosynthetic process",supported
+TSL1,YML100W,stress_response,9,5,"alpha,alpha-trehalose-phosphate synthase (UDP-forming) activity; alpha,alpha-trehalose-phosphate synthase complex (UDP-forming); response to stress",supported
+NTH1,YDR001C,stress_response,11,3,response to stress; trehalose catabolic process; trehalose metabolic process,supported
+GRE1,YPL223C,stress_response,3,2,response to osmotic stress; response to stress,supported
+GRE2,YOL151W,stress_response,14,1,response to stress,supported
+SIP18,YMR175W,stress_response,3,1,response to osmotic stress,supported
+XBP1,YIL101C,stress_response,6,1,response to stress,supported
+YGP1,YNL160W,stress_response,5,1,response to stress,supported
+CCP1,YKR066C,mitochondrial_response,12,3,mitochondrial intermembrane space; mitochondrial matrix; mitochondrion,supported
+ACO1,YLR304C,mitochondrial_response,21,7,citrate metabolic process; iron-sulfur cluster binding; mitochondrial genome maintenance,supported
+ACO2,YJL200C,mitochondrial_response,9,3,iron-sulfur cluster binding; mitochondrion; tricarboxylic acid cycle,supported
+MDH1,YKL085W,mitochondrial_response,19,4,aerobic respiration; mitochondrial matrix; mitochondrion,supported
+SDH1,YKL148C,mitochondrial_response,17,8,"cellular respiration; electron transport chain; mitochondrial electron transport, succinate to ubiquinone",supported
+CIT1,YNR001C,mitochondrial_response,10,5,citrate (Si)-synthase activity; citrate metabolic process; mitochondrial matrix,supported
+CYC1,YJR048W,mitochondrial_response,12,6,"electron transport chain; mitochondrial electron transport, cytochrome c to oxygen; mitochondrial electron transport, ubiquinol to cytochrome c",supported
+CYC7,YEL039C,mitochondrial_response,11,6,"electron transport chain; mitochondrial electron transport, cytochrome c to oxygen; mitochondrial electron transport, ubiquinol to cytochrome c",supported
+HAP4,YKL109W,mitochondrial_response,7,0,,no_matching_term
+PIM1,YBL022C,mitochondrial_response,13,2,mitochondrial matrix; mitochondrion,supported
+YME1,YPR024W,mitochondrial_response,20,3,mitochondrial inner membrane; mitochondrion; mitochondrion organization,supported
+HSP78,YDR258C,mitochondrial_response,11,4,mitochondrial genome maintenance; mitochondrial matrix; mitochondrion,supported
+NFS1,YCL017C,mitochondrial_response,15,2,iron-sulfur cluster assembly; mitochondrion,supported
+ISU1,YPL135W,mitochondrial_response,10,4,iron-sulfur cluster assembly; iron-sulfur cluster binding; mitochondrial matrix,supported

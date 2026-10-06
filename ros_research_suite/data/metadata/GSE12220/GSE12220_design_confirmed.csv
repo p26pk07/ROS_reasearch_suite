@@ -1,0 +1,13 @@
+sample_id,organism,strain,treatment,concentration,time_min,evidence,is_baseline,replicate,needs_review
+GSM307217,Saccharomyces cerevisiae,Y262,H2O2,0.3 mM,0.0,source_name_ch1,True,1,False
+GSM307218,Saccharomyces cerevisiae,Y262,H2O2,0.3 mM,30.0,source_name_ch1,False,1,False
+GSM307219,Saccharomyces cerevisiae,Y262,H2O2,0.3 mM,60.0,source_name_ch1,False,1,False
+GSM307220,Saccharomyces cerevisiae,Y262,H2O2,0.3 mM,100.0,source_name_ch1,False,1,False
+GSM307221,Saccharomyces cerevisiae,Y262,H2O2,0.3 mM,140.0,source_name_ch1,False,1,False
+GSM307222,Saccharomyces cerevisiae,Y262,H2O2,0.3 mM,180.0,source_name_ch1,False,1,False
+GSM307223,Saccharomyces cerevisiae,Y262,MMS,0.1 %,0.0,source_name_ch1,True,1,False
+GSM307224,Saccharomyces cerevisiae,Y262,MMS,0.1 %,30.0,source_name_ch1,False,1,False
+GSM307225,Saccharomyces cerevisiae,Y262,MMS,0.1 %,60.0,source_name_ch1,False,1,False
+GSM307226,Saccharomyces cerevisiae,Y262,MMS,0.1 %,100.0,source_name_ch1,False,1,False
+GSM307227,Saccharomyces cerevisiae,Y262,MMS,0.1 %,140.0,source_name_ch1,False,1,False
+GSM307228,Saccharomyces cerevisiae,Y262,MMS,0.1 %,180.0,source_name_ch1,False,1,False
